@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="45" height="20" tilewidth="50" tileheight="50" nextobjectid="19">
+ <tileset firstgid="1" name="Tiles" tilewidth="50" tileheight="50">
+  <image source="../tiles.png" width="200" height="350"/>
+ </tileset>
+ <layer name="Collision" width="45" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztlVsKACAIBPcK3f+yXSBTKx/EDuyXIoNEDgCDScuKXa0Ci3M3vDuHoR5N5JvS5ns8fnPuBp1zoHMOdM6h0lmar/3HHZ0lF2vfj86n9xvOnlsP5m0mYPMXpQ==
+  </data>
+ </layer>
+ <layer name="Tiles" width="45" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztlksKwCAMRFOLC+v979suugoZHQtGKRmYVT4+IZBkEclhN1sqjyuIrRDDvJs0c3p9NmqOTny2WnOSgEf/Z/XQNSjPytWc1we3Zr2QNSjPmtnd5zmYfRTMPgpmH61kRruzt0OsW8eLmenPcvydeeQmQO+wLGxeeL5vkr0HDA==
+  </data>
+ </layer>
+ <objectgroup name="Magnets">
+  <object id="1" type="north" gid="21" x="350" y="900">
+   <properties>
+    <property name="strength" value="200"/>
+   </properties>
+  </object>
+  <object id="4" type="north" gid="21" x="1200" y="700">
+   <properties>
+    <property name="strength" value="200"/>
+   </properties>
+  </object>
+  <object id="5" type="south" gid="22" x="1150" y="900">
+   <properties>
+    <property name="strength" value="200"/>
+   </properties>
+  </object>
+  <object id="6" type="north" gid="21" x="1400" y="800">
+   <properties>
+    <property name="strength" value="200"/>
+   </properties>
+  </object>
+  <object id="7" type="south" gid="22" x="2100" y="900">
+   <properties>
+    <property name="strength" value="200"/>
+   </properties>
+  </object>
+  <object id="9" type="north" gid="21" x="2000" y="700">
+   <properties>
+    <property name="strength" value="200"/>
+   </properties>
+  </object>
+  <object id="10" type="south" gid="22" x="2100" y="500">
+   <properties>
+    <property name="strength" value="200"/>
+   </properties>
+  </object>
+  <object id="12" type="north" gid="21" x="2000" y="300">
+   <properties>
+    <property name="strength" value="200"/>
+   </properties>
+  </object>
+  <object id="14" type="north" gid="21" x="1500" y="350">
+   <properties>
+    <property name="strength" value="200"/>
+   </properties>
+  </object>
+  <object id="15" type="south" gid="22" x="1000" y="350">
+   <properties>
+    <property name="strength" value="200"/>
+   </properties>
+  </object>
+  <object id="16" type="south" gid="22" x="850" y="350">
+   <properties>
+    <property name="strength" value="200"/>
+   </properties>
+  </object>
+  <object id="17" type="north" gid="21" x="650" y="250">
+   <properties>
+    <property name="strength" value="200"/>
+   </properties>
+  </object>
+  <object id="18" type="north" gid="21" x="300" y="150">
+   <properties>
+    <property name="strength" value="200"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
